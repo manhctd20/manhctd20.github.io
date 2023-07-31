@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/50a3c67631.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="products.css">
+    <title>Document</title>
+  <script src="script.js"></script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <p>
+                <b class="header__annouce">
+                    <i style="padding-right: 5px;" class="fa-solid fa-truck-fast"></i>
+                    Free Shipping Over $69 | Shop Now
+                </b>
+            </p>
+            <div class="header__header">
+                <div class="header__header--left">
+                  <a href="">
+                      <img
+                      src="https://moon-shop.net/cdn/shop/files/COPY_COPY_Dimensions_personnalisees_1600x600_px_5_x300.png?v=1672487169"
+                      alt="logo"/>
+                  </a>
+                </div>
+                <div class="header__header--right">                 
+                    <ul id="nav">
+                        <li><a href="">Home</a></li>
+                        <li class="navProduct">
+                            <a href="">
+                                All Products
+                                <span>
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </a>
+                            <div class="nav-product">
+                                <div class="subnav"><a class="sub" href="">Sofa Covers</a></div>
+                                <div class="subnav"><a class="sub" href="">Stretchy Sofa Covers</a></div>
+                                <div class="subnav"><a class="sub" href="">Armchairs & Recliners</a></div>
+                                <div class="subnav"><a class="sub" href="">Chair Covers</a></div>
+                                <div class="subnav"><a class="sub" href="">Linen Bedding Set</a></div>
+                            </div>
+                        </li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Track Your Order</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                </div>
+                <button style="border: none; background-color: #fff;" onclick="showCart()">
+                    <div class="header__yourCart">
+                        <i style="font-size: 25px;" class="fa-solid fa-bag-shopping cart"></i>
+                    </div>
+                </button>           
+            </div>
+        </div>
+            <div style="position: relative; " class="static-screen">
+                <div id="yourCart" >
+                   <div class="cart-header">
+                       <div class="cart-close">
+                        <p class="cart-text">
+                            YOUR CART
+                        </p>
+                        <button onclick="hiddenCart()" style="background-color: #fff; border: none; cursor: pointer;">
+                            <span> <i style="line-height: 30px;" class="fa-solid fa-xmark"></i> </span>
+                        </button>
+                       </div>
+                   </div>
+                   <div class="cart-container">
+                        <div class="discount-freeship">
+                            <div style="padding: 15px 0;" class="discount-content">
+                                <div class="text-freeship">
+                                    You are
+                                    <span> $69 </span>
+                                    away from free shipping!
+                                </div>
+        
+                                <div style=" width: 100%; border-radius: 0px; background: #cccccc;" class="process-shipping">
+                                    <div style="    
+                                    /* background: #000000; */
+                                    height: 10px;
+                                    border-radius: 0px;
+                                    transition: .25s;" id="process-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-cart">
+                            <p class="empty-cart-title">
+                            Your Cart is Empty. Let's Fix That!
+                            </p>
+                            <p class="empty-cart-subtitle">
+                            ⭐️⭐️⭐️⭐️⭐️ 4.9/5 Rated By Customers
+                            </p>     
+                      </div>
+    
+                      <div class="content-cart-empty">
+                        <div class="title-bought">
+                          <span>YOU MAY ALSO LIKE</span>
+                        </div>
+                      </div>
+    
+                      <div class="product-cart">
+                            <div class="product-cart-item">
+                                <a href="#">
+                                    <div class="product-img">
+                                        <img style="width: 100%;" src="https://cdn.shopify.com/s/files/1/0642/9818/9027/products/lightgrey_800x_a1dedf3c-f405-43a8-a9db-a9c6d2385751_x160.jpg" alt="">
+                                    </div>
+                                </a>
+                                <div class="wrap-product-title">
+                                    <a href="">
+                                        <p class="product-title">
+                                            Premium Sectional Couch Cover
+                                        </p>
+                                    </a>
+                                    <div class="content-sell">
+                                        <div style="width: 155px; padding-right: 10px;" class="price-sell">
+                                            <span style="text-decoration: line-through; color: #737373;">$33.50</span>
+                                            <span>$19.99</span>
+                                        </div>
+                                        <button class="btn-add">ADD</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="product-cart-item">
+                               <a href="#">
+                                    <div class="product-img">
+                                        <img style="width: 100%;" src="https://cdn.shopify.com/s/files/1/0642/9818/9027/products/1_23abed83-d0f8-4429-8b62-3324c2afa8bb_x160.webp" alt="">
+                                    </div>
+                               </a>
+                               <div class="wrap-product-title">
+                                    <a href="">
+                                        <p class="product-title">
+                                            Premium Sectional Couch Cover
+                                        </p>
+                                    </a>
+                                    <div class="content-sell">
+                                        <div style="width: 155px; padding-right: 10px;" class="price-sell">
+                                            <span style="text-decoration: line-through; color: #737373;">$43.99</span>
+                                            <span>$25.99</span>
+                                        </div>
+                                        <button class="btn-add">ADD</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-cart-item">
+                                <a href="#">
+                                        <div class="product-img">
+                                            <img style="width: 100%;" src="https://cdn.shopify.com/s/files/1/0642/9818/9027/products/20_c2fc1d19-8411-4de0-b173-7793590a6f83_x160.jpg" alt="">
+                                        </div>
+                                </a>
+                                <div class="wrap-product-title">
+                                    <a href="">
+                                        <p class="product-title">
+                                            Premium Sectional Couch Cover
+                                        </p>
+                                    </a>
+                                    <div class="content-sell">
+                                        <div style="width: 155px; padding-right: 10px;" class="price-sell">
+                                            <span style="text-decoration: line-through; color: #737373;">$58.99</span>
+                                            <span>$34.99</span>
+                                        </div>
+                                        <button class="btn-add">ADD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                   </div>
+            </div>
+               <div class="cart-footer"></div>
+            </div>
+        <div id="container">
+            <div class="grid-container">
+                <div class="item1">
+                    <img
+                    style="width: 100%"
+                    src="https://moon-shop.net/cdn/shop/files/HOW_TO_COMPOSE_MY_SOFA_COVER_1_-min.png?v=1683456792"
+                    alt=""
+                  /></div>
+                <div style="margin-top: 150px;" class="item2">
+                    <h2 class="text-center">
+                        <b>
+                        Suitable for all types of sofas & Armchairs.
+                        </b>
+                    </h2>
+      
+                    <div style="text-align: center; font-size: 14px; margin-top: 20px;">
+                        <p>
+                            For this Sofa, it was necessary:&nbsp;
+                            <strong>1pc for the seat,&nbsp;</strong>
+                            <strong>2pcs for the back,&nbsp;</strong>
+                            <strong>2 pcs frames and pillow cases.</strong>
+                        </p>
+                        <br>
+                        <p>
+                            <em>
+                                (Possibilities are unlimited, some people prefer 2 pieces for
+                                the back or 3 pieces for the back, some people prefer 2 or 3
+                                pieces for the seat...)
+                            </em>
+                        </p>
+                    </div>
+                </div>
+                <div style="margin-top: 150px;" class="item3">
+                    <h2 class="text-center">
+                        <b>
+                          Possibilities Are Unlimited
+                        </b>
+                    </h2>
+          
+                    <div  style="text-align: center; font-size: 14px; margin-top: 20px;">
+                        <p>
+                            When it comes to &nbsp;
+                          <strong>L-shaped &nbsp;</strong>
+                          and &nbsp;
+                          
+                          <strong>U-shaped&nbsp;sofas</strong>
+                          , our satisfied customers usually take 
+          
+                          <strong>2 or 3</strong>
+                          pieces for the seat for the 
+                          <strong>L</strong>
+                          and
+                          <strong>3 or 4</strong>
+                          pieces for the 
+                          <strong>U</strong>
+                          .&nbsp;It's up to you, let your imagination run free. 
+                        </p>
+                    </div>
+                </div>  
+                <div class="item4">
+                    <img
+                        style="width: 500px; border-radius: 5px"
+                        src="https://moon-shop.net/cdn/shop/files/giphy-downsized-large-min.gif?v=1683457618"
+                        alt=""
+                    />
+                </div>
+                <div class="item5"> 
+                    <img
+                        style="width: 100%; border-radius: 5px"
+                        src="https://moon-shop.net/cdn/shop/files/Reviews_moon_sofa_cover.png?v=1683458594"
+                        alt=""
+                    />
+                </div>
+                <div style="margin-top: 100px;" class="item6">
+                    <h2 class="text-center">
+                        <b>
+                          Trusted by Over 125,345+
+                        </b>
+                    </h2>
+                    <p style="font-size: 14px; margin: 25px 0 ;">
+                        ⭐️ ⭐️ ⭐️ ⭐️ ⭐️
+                    </p>
+          
+                    <div style="text-align: center; font-size: 14px; margin: 20px 0;">
+                        <p>
+                          "I was tired of my old sofa. But I can't afford to buy a new
+                          one. So I opted for the Moon Covers solution, I now feel like I
+                          have a new sofa. "
+                        </p>
+                        <br>
+                        <p>
+                          <strong>- Linda. D</strong>
+                        </p>
+                        <br>
+                        <p>
+                          <i
+                            style="color: rgb(22, 210, 22)"
+                            class="fa-solid fa-square-check"
+                          ></i>
+                          <strong>Verified Reviewer</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div  style="display: flex; padding: 0 100px; justify-content: center;">
+                <img
+                    src="https://moon-shop.net/cdn/shop/files/Sans_titre_49_-min.png?v=1683393671"
+                    alt=""
+                />
+            </div>
+
+            <div  style=" text-align: center; font-weight: bolder; padding: 0 100px;">
+                <b class="text-center">
+                    COMPOSE YOURS
+                    <br />
+                    RISK-FREE WITH OUR
+                    <br />
+                    60-DAY GUARANTEE
+                </b>
+            </div>
+
+            <div class="grid-product">
+                <div style="width: 50%;" class="slideshow-container">
+                    <div class="slider">
+                        <div class="slides">
+                            <img class="main-img" src="https://moon-shop.net/cdn/shop/files/1_9c1384c0-dba2-4487-bd23-515ea20a0db5.webp?v=1683456140" alt="">
+                            <img class="main-img" src="https://moon-shop.net/cdn/shop/files/COMPOSEYOURSETNOW_1_-min_b86ebbd2-358b-421c-846e-851eb45d3e2c.png?v=1683456141" alt="">
+                            <img class="main-img" src="https://moon-shop.net/cdn/shop/files/4_9b7bde05-ff34-4ec0-a884-a6a550a13349.jpg?v=1683456141" alt="">
+                            <img class="main-img" src="https://moon-shop.net/cdn/shop/files/5_32640b8c-253c-44ba-a464-41983c0934b0.jpg?v=1683456141" alt="">
+                            <img class="main-img" src="https://moon-shop.net/cdn/shop/files/Captured_ecran2023-02-28a22.01.53_90ab4378-c601-4c50-874d-fc83ffb1eda9.png?v=1683456141" alt="">
+                            <img class="main-img" src="https://moon-shop.net/cdn/shop/files/3_8b550cda-90f7-4c35-959d-d2764581120a.webp?v=1683456142" alt="">
+                          <!-- Add more images here -->
+                        </div>
+                    
+                        <button class="prev" onclick="changeSlide(-1)"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="next" onclick="changeSlide(1)"><i class="fa-solid fa-chevron-right"></i></button>
+                    
+                        <div class="thumbnails">                            
+                            <img class="thumbnail-item" src="https://moon-shop.net/cdn/shop/files/1_9c1384c0-dba2-4487-bd23-515ea20a0db5.webp?v=1683456140" alt="Thumbnail 1" onclick="currentSlide(0)">
+                            <img class="thumbnail-item" src="https://moon-shop.net/cdn/shop/files/COMPOSEYOURSETNOW_1_-min_b86ebbd2-358b-421c-846e-851eb45d3e2c.png?v=1683456141" alt="Thumbnail 2" onclick="currentSlide(1)">
+                            <img class="thumbnail-item" src="https://moon-shop.net/cdn/shop/files/4_9b7bde05-ff34-4ec0-a884-a6a550a13349.jpg?v=1683456141"alt="Thumbnail 3" onclick="currentSlide(2)">
+                            <img class="thumbnail-item" src="https://moon-shop.net/cdn/shop/files/5_32640b8c-253c-44ba-a464-41983c0934b0.jpg?v=1683456141" alt="Thumbnail 4" onclick="currentSlide(3)">
+                            <img class="thumbnail-item" src="https://moon-shop.net/cdn/shop/files/Captured_ecran2023-02-28a22.01.53_90ab4378-c601-4c50-874d-fc83ffb1eda9.png?v=1683456141" alt="Thumbnail 5" onclick="currentSlide(4)">
+                            <img class="thumbnail-item" src="https://moon-shop.net/cdn/shop/files/3_8b550cda-90f7-4c35-959d-d2764581120a.webp?v=1683456142" alt="Thumbnail 6" onclick="currentSlide(5)">
+                            <!-- Add more thumbnails here -->
+                          </div>
+                    </div>
+                </div>
+
+                <div style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="detail-product">
+                    <form id="addCart" method="">
+                        <div class="cart-productItem">
+                            <b>⭐️ ⭐️ ⭐️ ⭐️ ⭐️ 4.9 (125,345+ Happy Customers)</b>
+                        </div>
+                        <div style="padding-left: 15px; position: relative;" class="cart-productItem">
+                            <h1 style="color: #000000; font-size: 28px; font-family: 'Poppins', sans-serif;" class="productItem__title borderLeft " itemprop="name">
+                              Premium Soft Sofa Covers
+                            </h1>
+                        </div>
+                        <div style="margin-bottom: 10px;" class="cart-productItem">
+                            <span style="font-size: 30px; padding-right: 5px;" id="ProductPrice" class="price--on-sale money">$25.99</span>
+                            <span style="font-size: 18px; text-decoration: line-through; opacity: .6; padding-right: 5px;" id="ComparePrice" class="price--compare-at">$52.00</span>
+                            <span id="textOffer" class="" style="background: #c64844; color: white; padding: 3px 5px; font-size: 14px; border-radius: 5px;">
+                                <b>SAVE 50% </b>
+                            </span>  
+                        </div>
+                        <div style="background-color: #f9ece3; padding: 15px; border-radius: 5px; margin-bottom: 10px; text-align: center;" class=" usp_container b-sh">
+                            <p style="font-size: 14px;" class="text_usp">
+                                <b> 
+                                    <i class="fa-solid fa-stopwatch"></i>
+                                    Hurry! 
+                                </b>
+                                This special sale ends in few hours
+                            </p>
+                        </div>
+
+                        <div style="font-size: 14px;" class="selectItem">
+                            <div style="margin-bottom: 10px;" class="select-label">
+                                <label>
+                                    <span class="label-color">Color:</span>
+                                    <span class="label-value">Off White</span>
+                                </label>
+                            </div>
+                            <div style="margin-bottom: 20px;" class="select-option">
+                                <div class="thumbnails">                            
+                                    <img class="thumbnail-item opa" src="https://moon-shop.net/cdn/shop/files/1_9c1384c0-dba2-4487-bd23-515ea20a0db5.webp?v=1683456140" alt="Thumbnail 1" onclick="currentSlide(0)">
+                                    <img class="thumbnail-item opa" src="https://moon-shop.net/cdn/shop/files/4_9b7bde05-ff34-4ec0-a884-a6a550a13349.jpg?v=1683456141"alt="Thumbnail 3" onclick="currentSlide(2)">
+                                    <img class="thumbnail-item opa" src="https://moon-shop.net/cdn/shop/files/5_32640b8c-253c-44ba-a464-41983c0934b0.jpg?v=1683456141" alt="Thumbnail 4" onclick="currentSlide(3)">
+                                    <img class="thumbnail-item opa" src="https://moon-shop.net/cdn/shop/files/Captured_ecran2023-02-28a22.01.53_90ab4378-c601-4c50-874d-fc83ffb1eda9.png?v=1683456141" alt="Thumbnail 5" onclick="currentSlide(4)">
+                                    <img class="thumbnail-item opa" src="https://moon-shop.net/cdn/shop/files/3_8b550cda-90f7-4c35-959d-d2764581120a.webp?v=1683456142" alt="Thumbnail 6" onclick="currentSlide(5)">
+                                  </div>
+                            </div>
+
+                            <div style="padding-bottom: 8px;" class="select-label">
+                                <label>
+                                    <span class="label-size">Size (1pc):</span>
+                                    <span class="label-value">28x71"</span>
+                                </label>
+                            </div>
+                            
+                            <div style="margin-bottom: 20px;" class="selector-wrap">
+                                <div class="wrap-item">
+                                    <input type="radio" name="name1" value="28x28&quot;" class="button-option" id="item1">
+                                    <label for="item1" class="button-label" style="width: auto;">28x28"</label>
+                                </div>
+
+                                <div class="wrap-item">
+                                    <input type="radio" name="name1" value="28x35&quot;" class="button-option" id="item2">
+                                    <label for="item2" class="button-label" style="width: auto;">28x35"</label>
+                                </div>
+                                
+                                <div class="wrap-item">
+                                    <input type="radio" name="name1" value="28x47&quot;" class="button-option" id="item3">
+                                    <label for="item3" class="button-label" style="width: auto;">28x47"</label>
+                                </div>
+                                
+                                <div class="wrap-item">
+                                    <input type="radio" name="name1" value="28x60&quot;" class="button-option" id="item4">
+                                    <label for="item4" class="button-label" style="width: auto;">28x60"</label>
+                                </div>
+                                
+                                <div class="wrap-item">
+                                    <input type="radio" name="name1" value="28x71&quot;" class="button-option" id="item5">
+                                    <label for="item5" class="button-label" style="width: auto;">28x71"</label>
+                                </div>
+
+                                <div class="wrap-item">
+                                    <input type="radio" name="name1" value="36x71&quot;" class="button-option" id="item6">
+                                    <label for="item6" class="button-label" style="width: auto;">36x71"</label>
+                                </div>
+                                
+                                <div class="wrap-item">
+                                    <input type="radio" name="name1" value="36x83&quot;" class="button-option" id="item7">
+                                    <label for="item7" class="button-label" style="width: auto;">36x83"</label>
+                                </div>
+                                
+                                <div class="wrap-item">
+                                    <input type="radio" name="name1" value="1 Pillow Case 18x18&quot;" class="button-option" id="item8">
+                                    <label for="item8" class="button-label" style="width: auto;">1 Pillow Case 18x18"</label>
+                                </div>
+                                
+                                <div class="wrap-item">
+                                    <input type="radio" name="name1" value="2 Armrests" class="button-option" id="item9">
+                                    <label for="item9" class="button-label" style="width: auto;">2 Armrests</label>
+                                </div>
+                            </div>                     
+                        </div>
+                            <div style="margin-bottom: 10px;" class="quantity">
+                                <div style="display: flex; height: 35px;" class="countItem">
+                                    <span style="border-top-left-radius: 5px;" class="btn-addQuantity"> <i class="fa-solid fa-minus"></i> </span>
+                                    <input style="text-align: center; border: none; background-color: #efefef; font-weight: 700; font-size: 14px;" type="text" name="quantity" id="" value="1" min="1" readonly>
+                                    <span style="border-top-right-radius: 5px;" class="btn-addQuantity"> <i class="fa-solid fa-plus"></i> </span>
+                                </div>
+                                <div class="addToCart">
+                                    <button type="submit" name="add" id="AddToCart" class="btn-AddToCart" style="cursor: pointer;">
+                                        <span style=" font-family:'Poppins', sans-serif;
+                                        font-weight: 600;" class="btn-text">
+                                            ADD TO BAG
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div style="margin-bottom: 10px;" class="payment-method">
+                                <div style=" display: flex; flex-direction: column; text-align: center; align-items: center;" class="under-addCart">
+                                    <div class="cart_subtext " style="color: #000000; ">
+                                        <b><i class="fa-regular fa-calendar-check"></i> 60-Day Guarantee </b> 
+                                        <br>
+                                        Free Exchange &amp; No-Hassle Returns.
+                                    </div>
+                                    <ul style="list-style: none; display: flex; margin-top: 7px;" class="payment-icons">
+                                        
+                                        <li>
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-american_express"><title id="pi-american_express">American Express</title><g fill="none"><path fill="#000" d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z" opacity=".07"></path><path fill="#006FCF" d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1"></path><path fill="#FFF" d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z"></path></g></svg>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <svg class="icon" width="38" height="24" role="img" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="pi-cartes_bancaires"><title id="pi-cartes_bancaires">Cartes Bancaires</title><rect x="1" y="1" width="36" height="22" rx="2" fill="url(#pi-cartes_bancaires-paint0_linear)"></rect><rect x=".5" y=".5" width="37" height="23" rx="2.5" stroke="#000" stroke-opacity=".07"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M28 9.934c0 1.067-.8 1.932-1.79 1.934v.002h-6.52V8h6.52c.99.002 1.79.867 1.79 1.934zm0 4.104c0 1.067-.8 1.932-1.79 1.934v.003h-6.52v-3.87h6.52c.99.002 1.79.867 1.79 1.933zm-13.224-1.934h4.788v.378c0 1.943-1.46 3.518-3.26 3.518H13.26C11.46 16 10 14.425 10 12.482v-.938c0-1.943 1.46-3.518 3.26-3.518h3.044c1.8 0 3.26 1.575 3.26 3.518v.326h-4.788v.234z" fill="#fff"></path><defs><linearGradient id="pi-cartes_bancaires-paint0_linear" x1="37" y1="1" x2="17.422" y2="33.036" gradientUnits="userSpaceOnUse"><stop stop-color="#083969"></stop><stop offset=".492" stop-color="#007B9D"></stop><stop offset="1" stop-color="#00A84A"></stop></linearGradient></defs></svg>
+                                    </li>
+                                    
+                                    <li>
+                                      <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg>
+                                    </li>
+                                    
+                                    <li>
+                                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-shopify_pay"><title id="pi-shopify_pay">Shop Pay</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#5A31F4"></path><path d="M21.382 9.713c0 1.668-1.177 2.858-2.821 2.858h-1.549a.133.133 0 00-.12.08.127.127 0 00-.01.049v2.192a.129.129 0 01-.13.129h-1.084a.13.13 0 01-.13-.13V6.986a.127.127 0 01.08-.12.129.129 0 01.05-.01h2.9c1.637 0 2.814 1.19 2.814 2.858v-.001zm-1.352 0c0-.958-.658-1.658-1.55-1.658h-1.468a.13.13 0 00-.13.13v3.05a.127.127 0 00.038.092.129.129 0 00.092.038h1.468c.892.005 1.55-.695 1.55-1.652zm1.674 3.791a1.527 1.527 0 01.647-1.317c.423-.316 1.084-.48 2.055-.514l1.033-.036v-.303c0-.607-.41-.863-1.068-.863-.658 0-1.075.231-1.17.61a.127.127 0 01-.125.09h-1.022a.13.13 0 01-.126-.092.125.125 0 01-.004-.055c.152-.898.904-1.58 2.494-1.58 1.692 0 2.303.783 2.303 2.276v3.172a.13.13 0 01-.132.129h-1.03a.13.13 0 01-.13-.13v-.236a.096.096 0 00-.061-.091.1.1 0 00-.107.022c-.31.334-.808.575-1.607.575-1.175 0-1.95-.607-1.95-1.657zm3.735-.687v-.246l-1.339.07c-.705.036-1.115.326-1.115.816 0 .444.376.69 1.034.69.893 0 1.42-.48 1.42-1.33zm2.316 4.6v-.919a.13.13 0 01.049-.1.132.132 0 01.108-.027c.158.029.318.044.479.044a1.229 1.229 0 001.245-.876l.067-.211a.133.133 0 000-.088l-2.145-5.471a.13.13 0 01.06-.165.13.13 0 01.062-.015h1.04a.132.132 0 01.123.085l1.456 3.859a.131.131 0 00.125.088.133.133 0 00.125-.088l1.265-3.848a.13.13 0 01.126-.09h1.076a.134.134 0 01.132.116.134.134 0 01-.008.063l-2.295 6.076c-.528 1.413-1.433 1.773-2.43 1.773a1.959 1.959 0 01-.561-.066.132.132 0 01-.1-.14h.001zM8.57 6.4a5.363 5.363 0 00-3.683 1.427.231.231 0 00-.029.31l.618.839a.236.236 0 00.362.028 3.823 3.823 0 012.738-1.11c2.12 0 3.227 1.584 3.227 3.15 0 1.7-1.163 2.898-2.835 2.921-1.292 0-2.266-.85-2.266-1.974a1.908 1.908 0 01.713-1.48.231.231 0 00.033-.324l-.65-.815a.236.236 0 00-.339-.034 3.43 3.43 0 00-.942 1.183 3.39 3.39 0 00-.337 1.47c0 1.935 1.655 3.452 3.775 3.464h.03c2.517-.032 4.337-1.884 4.337-4.415 0-2.247-1.667-4.64-4.752-4.64z" fill="#fff"></path></svg>
+                                    </li>
+                                    
+                                    <li>
+                                      <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg>
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </div>
+                            </div>
+                            
+                            <div class="help-detail b-sh">
+                                <div style="display: grid; grid-template-columns: auto auto; grid-gap: 10px;" class="usp_on_desktop">
+                                        <div class=" usp_container">
+                                            <p class="text_usp">
+                                                <i class="fa-solid fa-thumbs-up"></i>
+                                                <b>40k Customers</b>
+                                            </p>
+                                        </div>
+                                        <div class=" usp_container">
+                                            <p class="text_usp">
+                                                <i class="fa-solid fa-paw"></i>
+                                                <b>Kid &amp; Pet Proof</b>
+                                            </p>
+                                        </div>
+                                        <div class=" usp_container">
+                                            <p class="text_usp">
+                                                <i class="fa-solid fa-shirt"></i>
+                                                <b>Easy to Wash &amp; Care</b>
+                                            </p>
+                                        </div>
+                                        <div class=" usp_container">
+                                            <p class="text_usp">
+                                                <i class="fa-solid fa-truck-fast"></i>
+                                                <b>Shipped in 24H</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <div class="feedback b-sh" style="background-color: #f6f6f6; padding: 15px; border-radius: 5px; margin-bottom: 10px;">
+                                <div class="featured_mini_desc text-justify">
+                                    <p>"Best find of the year. My old sofas look like new, amazing! The size is perfect as stated in the size chart."</p>
+                                    <p><strong>Lorrie (Verified Customer)⭐️⭐️⭐️⭐️⭐️</strong></p>
+                                </div>
+                            </div>
+                            
+                            
+                        </form>
+                        <div>
+                            <div class="tab-wrapper">
+                                <button class="tab-bar" onclick="openTab('tabs-1-panel')">Description</button>
+                                <button class="tab-bar" onclick="openTab('tabs-2-panel')">Shipping</button>
+                                <button class="tab-bar" onclick="openTab('tabs-3-panel')">Easy &amp; Free Returns</button>
+                            </div>
+                            
+                           <div style="font-size: 14px;" class="panels">
+                                <div style="padding-top: 15px;" class="panel" id="tabs-1-panel">
+                                    <p>
+                                        <strong style="font-size: 1.4em;" data-mce-fragment="1">
+                                        &gt;&nbsp;WHY YOU'LL LOVE IT?</strong>
+                                        <br>
+                                        <strong data-mce-fragment="1">😸 Protect your sofa from stains, wear, tear, cat and dog scratches</strong>
+                                        <br>
+                                        <strong data-mce-fragment="1">
+                                            <span data-mce-fragment="1">💰 Save money by&nbsp;
+
+                                            </span>
+                                        </strong>
+                                        <strong data-mce-fragment="1">making an old couch look brand new&nbsp;</strong>
+                                        <br data-mce-fragment="1">
+                                        <strong data-mce-fragment="1">
+                                            <span data-mce-fragment="1">🧡&nbsp;Extend the life of your sofa (Less expensive than buying a new one)</span>
+                                        </strong>
+                                        <br>
+                                        <strong data-mce-fragment="1">
+                                            <span data-mce-fragment="1">&nbsp;☁️ Improve the comfort of your&nbsp;Living room</span>
+                                        </strong>
+                                        <br>
+                                        <strong data-mce-fragment="1">🟢<span>&nbsp;</span>
+                                            <span data-mce-fragment="1">Non slip, Easy to install &amp; wash</span>
+                                        </strong>
+                                    </p>
+                                    <div data-mce-fragment="1">
+                                        <div style="text-align: left;" data-mce-fragment="1"><span style="color: #000000;"><strong>Our sofa covers are<span>&nbsp;</span><span style="color: #fc0505;">suitable&nbsp;for all types of sofas &amp; armchairs</span>,&nbsp;‘Loveseat’,&nbsp; ‘L-Shape’ 'U-Shape' 'Oversized sofa'&nbsp; ‘No Armrest Style’ ‘Recliner’ and more...</strong></span></div>
+                                        <div style="text-align: left;" data-mce-fragment="1"><span style="color: #000000;"><strong><img src="https://cdn.shopify.com/s/files/1/0642/9818/9027/files/Sanstitre_28_-min_480x480.png?v=1681318151" alt="" width="362" height="241" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0642/9818/9027/files/Sanstitre_28_-min_480x480.png?v=1681318151"></strong></span></div>
+                                        <div style="text-align: left;" data-mce-fragment="1">
+                                        <p style="padding-bottom: 15px;"><strong style="font-size: 1.4em;" data-mce-fragment="1">&gt;&nbsp;ALWAYS STAY IN PLACE</strong></p>
+                                        <p><strong style="font-size: 1.4em;" data-mce-fragment="1"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjNkZjM1ZDQ2NmFhMDE0OTk5ZmQ4NTY2ZjI1MTM3ZGNmOTdlN2Y3ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/xNZMHF4nmPWqSd9ERd/giphy.gif" data-mce-src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjNkZjM1ZDQ2NmFhMDE0OTk5ZmQ4NTY2ZjI1MTM3ZGNmOTdlN2Y3ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/xNZMHF4nmPWqSd9ERd/giphy.gif"></strong></p>
+                                        </div>
+                                        <div style="text-align: left;" data-mce-fragment="1">
+                                        <span style="color: #000000;">Thank's to<span>&nbsp;</span><strong>non slip materials</strong>, you won't have to constantly adjust the cover or worry about it slipping off, which can be<span>&nbsp;</span><strong>frustrating and time-consuming.</strong></span><br>
+                                        </div>
+                                        <div style="text-align: left;" data-mce-fragment="1"><br></div>
+                                    </div>
+                                    <p><strong style="font-size: 1.4em;" data-mce-fragment="1">&gt; IMPROVE THE COMFORT OF YOUR COUCH</strong></p>
+                                    <p  style="padding-bottom: 15px;">They are made of 100% premium quality polyester, which makes them<span>&nbsp;</span>
+                                        <strong>incredibly soft and comfortable</strong>. We made sure that you enjoy<span>&nbsp;</span>
+                                        <strong>maximum comfort</strong>. The non-slip mat allows the sofa cover to stay in place.<br data-mce-fragment="1">
+                                    </p>
+                                    <div>
+                                        <img src="https://cdn.shopify.com/s/files/1/0638/7164/7975/files/Captured_ecran2023-01-07a10.42.38_480x480.png?v=1673084613" 
+                                        alt="" width="403" height="402" style="display: block; margin-left: auto; margin-right: auto;" data-mce-fragment="1" 
+                                        data-mce-src="https://cdn.shopify.com/s/files/1/0638/7164/7975/files/Captured_ecran2023-01-07a10.42.38_480x480.png?v=1673084613">
+                                    </div>
+                                    <div style="text-align: left;" data-mce-fragment="1">
+                                        <strong style="font-size: 1.4em;" data-mce-fragment="1"></strong><br>
+                                    </div>
+                                    <p style="text-align: left;" data-mce-fragment="1">
+                                        <strong style="font-size: 1.4em;" data-mce-fragment="1">&gt; LIKE A BRAND NEW SOFA BUT FOR MUCH LESS</strong>
+                                    </p>
+                                    <p  style="padding-bottom: 15px;">100% of our customers<span>&nbsp;</span><strong>feel like they have a new sofa</strong>
+                                        , and a new atmosphere in their living room. And all this,<span>&nbsp;</span>
+                                        <strong>without breaking the bank</strong>
+                                        <span>&nbsp;</span>in the purchase of a new sofa.<br data-mce-fragment="1">
+                                    </p>
+                                    <p >
+                                        <img src="https://cdn.shopify.com/s/files/1/0638/7164/7975/files/S7c27a87bd280415c81283cb302cab79dx_480x480.webp?v=1673084730"
+                                         alt="" width="409" height="409" style="display: block; margin-left: auto; margin-right: auto;" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0638/7164/7975/files/S7c27a87bd280415c81283cb302cab79dx_480x480.webp?v=1673084730">Because let's be honest,<span>&nbsp;</span>
+                                        <strong>who doesn't want to save money in these expensive times?</strong>
+                                    </p>
+                                    <div style="text-align: left;" data-mce-fragment="1">
+                                        <p style="text-align: left;" data-mce-fragment="1"><strong style="font-size: 1.4em;" data-mce-fragment="1">&gt; HOW&nbsp;DO I COMPOSE MY PACK?</strong></p>
+                                        To compose the&nbsp; sofa&nbsp;<span>&nbsp;</span><span>&nbsp;</span><span data-mce-fragment="1">cover</span>&nbsp;presented on the photo it was necessary:<span>&nbsp;</span><strong>1pc for the seat</strong>,<span>&nbsp;</span><strong>1pc for the back</strong>,<span>&nbsp;</span><strong>2 pcs frames and pillow cases</strong>.&nbsp;Now it is<span>&nbsp;</span><strong>your turn to compose your sofa cover</strong>, the possibilities are unlimited, let your imagination run free.
+                                    </div>
+                                    <div style="text-align: left;" data-mce-fragment="1"><br></div>
+                                    <div style="text-align: left;" data-mce-fragment="1"><span>When it comes to&nbsp;<strong>L-shaped</strong>&nbsp;and&nbsp;<strong>U-shaped&nbsp;</strong>sofas, our satisfied customers usually take 2 pieces for the seat for the L and 3 pieces for the U.&nbsp;</span>
+                                    </div>
+                                    <div style="text-align: left;" data-mce-fragment="1"><span><strong><img height="252" width="378" alt="" src="https://cdn.shopify.com/s/files/1/0642/9818/9027/files/Sanstitre_28_-min_480x480.png?v=1681318151" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0642/9818/9027/files/Sanstitre_28_-min_480x480.png?v=1681318151" data-mce-selected="1"></strong></span></div>
+                                    <p data-mce-fragment="1"><strong style="font-size: 1.4em;" data-mce-fragment="1">&gt;<span data-mce-fragment="1">&nbsp;</span>PACKAGE INCLUDES:</strong></p>
+                                    <p><span style="text-decoration: underline;"><strong></strong></span><strong>1x cover of the size you choose</strong></p>
+
+                                    <div style="text-align: left;" data-mce-fragment="1">
+                                        <ul data-mce-fragment="1">
+                                            <li data-mce-fragment="1"><strong data-mce-fragment="1">Q: Does it works for a Reclining Sofa and Love Seat ?</strong></li>
+                                            <li data-mce-fragment="1">A:&nbsp;<span data-mce-fragment="1">Yes! It will work on any kind sofa as long as the dimensions fit our size guides.</span>
+                                            </li>
+                                        </ul>
+                                        <ul data-mce-fragment="1">
+                                            <li data-mce-fragment="1"><span data-mce-fragment="1"><strong data-mce-fragment="1">Q:&nbsp;Where do you ship to ?</strong></span></li>
+                                            <li data-mce-fragment="1">A: We Ship Worldwide, DK, FI, SE, NO, USA, CA, UK, AU, NZ &amp; Many more...</li>
+                                        </ul>
+                                        <ul data-mce-fragment="1">
+                                            <li data-mce-fragment="1"><strong data-mce-fragment="1">Q: Is this sofa slipcover machine washable？</strong></li>
+                                            <li data-mce-fragment="1">A: Yes, it is.</li>
+                                        </ul>
+                                        <ul data-mce-fragment="1">
+                                            <li data-mce-fragment="1"><strong data-mce-fragment="1">Q: Does hair, lint, dust tend to cling and a pain to remove?</strong></li>
+                                            <li data-mce-fragment="1">A: You can brush it off easily with your hand or use a lint roller.</li>
+                                        </ul>
+                                        <ul data-mce-fragment="1">
+                                            <li data-mce-fragment="1"><strong data-mce-fragment="1">Q: Can I return if i'm not satisfied?</strong></li>
+                                            <li data-mce-fragment="1">A:&nbsp;<span data-mce-fragment="1">We’ll cover the shipping both ways if you are not satisfied so you can cover yourself in comfort and peace of mind.</span>
+                                            </li>
+                                        </ul>
+                                        <ul data-mce-fragment="1">
+                                            <li data-mce-fragment="1"><strong data-mce-fragment="1">Q: My sofa is between 2 sizes, what do i choose ?</strong></li>
+                                            <li data-mce-fragment="1">A: It's recommended that you order the larger one.</li>
+                                        </ul>
+                                    </div>
+                                    <div style="text-align: left;" data-mce-fragment="1">
+                                        <div style="text-align: left;" data-mce-fragment="1"><strong style="font-size: 1.4em;" data-mce-fragment="1">&gt; OUR GUARANTEE:</strong></div>
+                                        <div style="text-align: left;" data-mce-fragment="1"><strong style="font-size: 1.4em;" data-mce-fragment="1"><br></strong></div>
+                                    </div>
+                                    <p><strong>Not satisfied? We refund your money!</strong></p>
+                                    <p>Many satisfied customers have preceded you in providing the latest and greatest products. We stand behind our products 100%, which is why we offer a "<strong>money back guarantee</strong>": 60 days after receiving the product, you can return it.</p>
+                                    <h3><strong>Take advantage of the 50% off offer by clicking on "add to bag". Offer limited to the first 100 orders.&nbsp;</strong></h3>
+                                </div>
+    
+                                <div style="display: none; padding-top: 15px;" class="panel" id="tabs-2-panel">
+                                    <p>We offer <strong>free shipping for all orders over $69</strong>.&nbsp;Order processing takes 1-3 business days before shipment.&nbsp;Once your item/s is dispatched, the estimated delivery time is:</p>
+                                    <br>
+                                    <ul style="margin-left: 20px;">
+                                        <li><strong>USA: 3-6 business days</strong></li>
+                                        <li><strong>UK: 3-6 business days</strong></li>
+                                        <li><strong>CA: 3-7 business days</strong></li>
+                                        <li><strong>AU: 3-8 business days</strong></li>
+                                    </ul>
+                                    <br>
+                                    <p>Once your package is shipped, you will receive an email containing your tracking number.
+                                              If you need more information about the delivery, please contact us by e-mail:
+                                               <strong>info@moon-shop.net</strong>
+                                    </p>
+                                        
+                                </div>
+
+                                <div style="display: none; padding-top: 15px;" class="panel" id="tabs-3-panel">
+                                    <p>We have a <strong>30-days Easy Return Policy</strong>, 
+                                        which means you have 30 days after receiving your item to request a return.
+                                        <br>
+                                        <br>
+                                        To be eligible for a return, your item must be in the same condition that you received it, unused, with tags, and in its original packaging.
+                                    </p>
+                                    <br>
+                                    <p><strong>Free Exchange &amp; No-Hassle Returns</strong></p>
+                                </div>
+                           </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="testimoials text-center">TESTIMONIALS</div>
+            <div style="width: 100%;" class="reviews">
+                <img style="width: 100%; padding: 50px 15px" src="https://moon-shop.net/cdn/shop/files/Gary._B_2_-min.png?v=1683460449" alt="">
+            </div>
+
+            <div style="padding: 48px 16px; " class="reviews">
+                <div style="font-size: 24px; font-weight: 650; margin-bottom: 20px; font-family: 'Inter';" class="title-reviews">Customer Reviews</div>
+                <div class="layout-reviews">
+                    <div style="display: flex; " class="layout-reviews__left">
+                        <span style="width: 70px; height: 70px; background-color: black; border-radius: 5px; display: flex; align-items: center; justify-content: center;">
+                            <i style="font-size: 30px; color: #fff;" class="fa-solid fa-star"></i>
+                        </span>
+                        <div style="display: flex; flex-direction: column; justify-content: center; padding-left: 30px;" class="reviews-text">
+                            <p style="font-family: 'Inter'; font-size: 16px; font-weight: 700;">Review this product</p>
+                            <p style="font-family: 'Inter'; font-size: 14px;">Share your thoughts with other customers</p>
+                        </div>
+                    </div>
+                    <div class="layout-reviews__right">
+                        <div>
+                            <button id="reviews-form" style="width: 135px; height: 40px; background-color: black; color: #fff; border-radius: 4px; font-size: 14px; font-weight: 550; font-family: 'Inter'; cursor: pointer;">Write A Review</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div style="padding-top: 26px; display: none;" id="form-reviews">
+                    <div 
+                    style="font-size: 24px;
+                    font-family: 'Inter';
+                    font-weight: 600;
+                    padding-bottom: 25px;" class="form-title">Write A Review</div>
+                    <label class="label-title">Rating</label>
+                    <div style="margin-bottom: 20px;">
+                        <i class="fa-regular fa-star star-item"></i>
+                        <i class="fa-regular fa-star star-item"></i>
+                        <i class="fa-regular fa-star star-item"></i>
+                        <i class="fa-regular fa-star star-item"></i>
+                        <i class="fa-regular fa-star star-item"></i>
+                    </div>
+                    <div class="reviews-stars"></div>
+                   <div style="width: 100%; background-color:#f8f8f8; text-align: center; border: 1px dashed #cccccc;padding: 5px; cursor: pointer; " class="upLoad-img">
+                        <ul>
+                            <label style="border: none; width: 100%; height: 100%;" for="file-upload" class="custom-file-upload">
+                                <span>
+                                    <i class="fa-solid fa-image"></i>
+                                    <span>Add Media</span>
+                                </span>
+                            </label>
+                        </ul>
+                        <input style="display: none;" type="file" name="file" id="file-upload" accept="image/x-png,image/gif,image/jpeg" data-required="" multiple="">
+                   </div>
+
+                   <div style="margin-top: 15px;" class="groupForm-feedback">
+                        <label class="label-title" for="feedback">Feedback</label>
+                        <div style="padding-bottom: 35px;" class="input-textarea">
+                            <textarea style=" resize: none; border: none; outline: none;" rows="5"  data-required="1" name="feedback" id="feedback" 
+                            placeholder="Share your thoughts about the product" maxlength="2000"></textarea>
+                            <p style="position: absolute; right: 12px; opacity: 0.8;" id="count-content">0/2000</p>
+                        </div>
+                   </div>
+
+                   <div class="groupForm-info">
+                        <div style="margin-top: 30px;" class="groupInfo-name">
+                            <label class="label-title" for="name">Name</label>
+                           <div class="input-text"> <input style="border: none; outline: none;" type="text" name="name" id="name" placeholder="Enter your name"></div>
+                        </div>
+                        <div style="margin-top: 30px;" class="groupInfo-email">
+                            <label class="label-title" for="email">Email</label>
+                            <div class="input-text"><input style="border: none; outline: none;" type="email" name="email" id="email" placeholder="Enter your email"></div>
+                        </div>
+                   </div>
+
+                   <div style="margin-top: 30px;" class="groupBtn">
+                        <button class="btn-rev" type="submit">Submit Review</button>
+                        <button id="cancelForm" style=" margin-left: 3px; background-color: #ffffff; color: #000000; border: 1px solid #000000;" class="btn-rev" type="button">Cancel</button>
+                   </div>
+                </div>
+            </div>
+            <div style="padding: 0 10px 30px;" class="wrapper-faq">
+                <div class="section-header text-center">
+                    <h2 style="margin-bottom: 20px; font-size: 28px; font-weight: 400;">
+                        FAQ
+                    </h2>
+                </div>
+                    <div style="
+                        display: grid;
+                        grid-template-columns: auto ;
+                        grid-gap: 10px;
+                    " class="faq-container">
+                    <div class="faq-containe__container">
+                        <div id="toggle1" class="toggle">
+                            <p>
+                                <span class="title-name">
+                                    <b>
+                                        If I ordered the wrong size, what do I do? 
+                                    </b>
+                                </span>
+                            </p>
+                        </div>
+                        <p id="text1" style="display: none; padding-top: 12px; font-size: 14px;">Contact us by e-mail, our team will be happy to help you. We have a <strong>30 days return policy</strong>.</p>
+                        
+                        <div id="toggle2" class="toggle">
+                            <p>
+                                <span class="title-name">
+                                    <b>
+                                        Are these covers resistant to cat and dog paws?                                    
+                                    </b>
+                                </span>
+                            </p>
+                        </div>
+                        <p id="text2" style="display: none; padding-top: 12px; font-size: 14px;">Our covers are perfectly adapted to our animal friends. Cats usually love to sleep on them. The hair can be removed very easily and there is no risk of tearing. </p>
+                        
+                        <div id="toggle3" class="toggle">
+                            <p>
+                                <span class="title-name">
+                                    <b>
+                                        How do I wash my Moon covers?                                  
+                                    </b>
+                                </span>
+                            </p>
+                        </div>
+                        <p id="text3" style="display: none; padding-top: 12px; font-size: 14px;">Remember: Do Machine Wash Separately on Low &amp; Do Drip Dry for the Best Results. (Tumble Dry Low is an Option but Drip Dry is Recommended). Do Not Iron, Do Not Bleach, and Do Not Dry Clean.</p>
+                        
+                        <div id="toggle4" class="toggle">
+                            <p>
+                                <span class="title-name">
+                                    <b>
+                                        Can I return my covers if I am not satisfied? 
+                                    </b>
+                                </span>
+                            </p>
+                        </div>
+                        <p id="text4" style="display: none; padding-top: 12px; font-size: 14px;">Contact us by e-mail, our team will be happy to help you. We have a <strong>30 days return policy</strong>.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-recommend">
+                <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 15px;" class="header-recommend">
+                   <div style="position: relative;">
+                        <span style="padding-left: 15px; font-size: 28px; font-weight: 300; font-family: 'Poppins','sans-serif';" class="header borderLeft">
+                            You Will Also Love
+                        </span>
+                   </div>
+                </div>
+                <div class="grid-recommend">
+                    <div style="display: flex; flex-direction: column; text-align: center;" class="wrapper-item-recommend">
+                      <div class="wrap-img">
+                            <a href="">
+                                <div class="wrapper-img">
+                                    <img class="img-hover" src="https://moon-shop.net/cdn/shop/products/20_c2fc1d19-8411-4de0-b173-7793590a6f83.jpg?v=1672746021" alt="">
+                                    <img class="img-change" src="https://moon-shop.net/cdn/shop/products/1_562edcd6-b0ab-41eb-914b-f294a59a74ee_450x450.jpg?v=1672746021" alt="">
+                                </div>
+                            </a>
+                            <span class="sale-tag">-40%</span>
+                      </div>
+                        <p style="width: 200px; white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;" >
+                            <a href="">
+                                <span class="recommend-title">Oversized Thicken Stretch Jacquard Sofa Covers</span>
+                            </a>
+                        </p>  
+                        <div>
+                            <span class="recommend-rate">⭐️ ⭐️ ⭐️ ⭐️ ⭐️</span>
+                            <span style="font-size: 14px;"> 95 views</span>
+                        </div>
+                        <a href="">
+                            <span class="recommend-price">
+                                <span class="price-on-sale">$14.99</span>
+                                <span style="text-decoration: line-through; opacity: 0.7;" class="compare">$24.99</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div style="display: flex; flex-direction: column; text-align: center;" class="wrapper-item-recommend">
+                        <div class="wrap-img">
+                            <a href="">
+                                <div class="wrapper-img">
+                                    <img class="img-hover" src="https://moon-shop.net/cdn/shop/products/Captured_ecran2023-01-11a23.09.10.png?v=1673475098" alt="">
+                                    <img class="img-change" src="https://moon-shop.net/cdn/shop/products/Captured_ecran2023-01-11a23.09.50_450x450.png?v=1673475110" alt="">
+                                </div>
+                            </a> 
+                            <span class="sale-tag">-40%</span>
+                        </div> 
+                        <p style="width: 200px; white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;" >
+                            <a href="">
+                                <span class="recommend-title">Soft and Twisted Sofa Covers</span>
+                            </a>
+                        </p>  
+                        <div>
+                            <span class="recommend-rate">⭐️ ⭐️ ⭐️ ⭐️ ⭐️</span>
+                            <span style="font-size: 14px;"> 86 views</span>
+                        </div>
+                        <a href="">
+                            <span class="recommend-price">
+                                <span class="price-on-sale">$14.99</span>
+                                <span style="text-decoration: line-through; opacity: 0.7;" class="compare">$24.99</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div style="display: flex; flex-direction: column; text-align: center;" class="wrapper-item-recommend">
+                       <div class="wrap-img">
+                            <a href="">
+                                <div class="wrapper-img">
+                                    <img class="img-hover" src="https://moon-shop.net/cdn/shop/products/MagicSofaCoverWheat-LightGrey.jpg?v=1672673920" alt="">
+                                    <img class="img-change" src="https://moon-shop.net/cdn/shop/products/MagicSofaCoverWheat-DarkGrey_450x450.jpg?v=1672673920" alt="">
+                                </div>
+    
+                            </a> 
+                            <span class="sale-tag">-40%</span>
+                       </div> 
+                        <p style="width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" >
+                            <a href="">
+                                <span class="recommend-title">Wheat Sofa Cover</span>
+                            </a>
+                        </p>  
+                        <div>
+                            <span class="recommend-rate">⭐️ ⭐️ ⭐️ ⭐️ ⭐️</span>
+                            <span style="font-size: 14px;"> 106 views</span>
+                        </div>
+                        <a href="">
+                            <span class="recommend-price">
+                                <span class="price-on-sale">$14.99</span>
+                                <span style="text-decoration: line-through; opacity: 0.7;" class="compare">$24.99</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div style="display: flex; flex-direction: column; text-align: center;" class="wrapper-item-recommend">
+                        <div class="wrap-img">
+                            <a href="">
+                                <div class="wrapper-img">
+                                    <img class="img-hover" src="https://moon-shop.net/cdn/shop/products/Captured_ecran2023-01-09a22.47.53.png?v=1673301233" alt="">
+                                    <img class="img-change" src="https://moon-shop.net/cdn/shop/products/Captured_ecran2023-01-09a22.49.49_450x450.png?v=1673302397" alt="">
+                                </div>
+    
+                            </a> 
+                            <span class="sale-tag">-40%</span> 
+                        </div>
+                        <p style="width: 200px; padding-left:30px; white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;" >
+                            <a href="">
+                                <span class="recommend-title">Modern Extendable Covers for Armchair and Sofa</span>
+                            </a>
+                        </p>  
+                        <div>
+                            <span class="recommend-rate">⭐️ ⭐️ ⭐️ ⭐️ ⭐️</span>
+                            <span style="font-size: 14px;"> 96 views</span>
+                        </div>
+                        <a href="">
+                            <span class="recommend-price">
+                                <span class="price-on-sale">$34.99</span>
+                                <span style="text-decoration: line-through; opacity: 0.7;" class="compare">$58.99</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-trust">
+                <div>
+                    <div class="logo-section"></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div style="padding: 30px;" class="site-footer">
+                <div style="max-width: 1100px; margin: 0 auto; padding-left: 15px; padding-right: 15px;" class="site-width">
+                    <div style="display: flex;" class="content-footer">
+                        <div style="width: 40%;" class="footer__left">
+                            <div style="margin-bottom: 15px;" class="footer__logo">
+                                <a href="#"><img style="width: 100%; max-width: 140px" class="footer__logo" src="https://moon-shop.net/cdn/shop/files/COPY_COPY_Dimensions_personnalisees_1600x600_px_4_400x.png?v=1672433546" alt=""></a>
+                                <p style="color: #ffffff;" class="site-footer__copyright-content ">
+                                    <span class="powered_by_badge">Join our email list and receive news and exclusive offers !</span>
+                                </p>
+                            </div>
+
+                            <form method="post">
+                                <div>
+                                    <div style="border: 1px solid #fff; border-radius: 5px; width: 90%;" class="footer-form">
+                                        <div style="display: flex; justify-content: center; align-items: center;" class="contact-email">
+                                            <input style="width: 90%; border: none; outline: none; margin: 8px; background: none; color: #ffffff; font-size: 14px;" type="email" value="" placeholder="Your email" name="contact" id="Email-footer-complet" autocorrect="off" autocapitalize="off">
+                                            <span style="width: 10%;" class="input-group-btn">
+                                                <button style="background: none; color: #ffffff; border: none;" id="Subscribe-footer-complet" type="submit" class="" aria-label="Subscribe">
+                                                    <span><i style="font-size: 22px; " class="fa-solid fa-arrow-right-long"></i></span>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+            
+                            <p class="powered_by_badge" style=" color: #fff; padding-top: 10px; margin-bottom: 15px;">
+                                Do not hesitate to send us a message if you have a question. We will be glad to help you!
+                                We have served more than 60.000 customers and received great feedback! ⭐️️️️️️️️️️️️️️️⭐️⭐️⭐️⭐️ (9.6 / 10)
+                            </p>
+                            
+                            <ul style="color: #ffffff; list-style: none;" class=" contact_footer">
+                                <li>
+                                    <i style="padding-right: 10px;" class="fa-solid fa-envelope"></i> E-mail : info@moon-shop.net 
+                                    <br>
+                                    Address: 500 4th st NW, Albuquerque, 87102
+                                </li>
+                                <li>
+                                    <i style="padding-right: 8px;" class="fa-solid fa-phone-flip"></i> Tel : 305 614 0947
+                                </li>
+                                <li> Monday - Friday: 08:00 - 17:00, Saturday and Sunday: 10:00 - 16:00</li>
+                            </ul>
+                        </div>
+                        <div style="display: flex; width: 60%; justify-content: flex-end;" class="footer__right">
+                            <div style="color: #ffffff; width: 33.3%;" class="footer__right--item">
+                                <p class="footer__right-title">INFO</p>
+                                <ul style="list-style: none;">
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Legal Notice</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Return and Refund Policy</a></li>
+                                    <li><a href="#">Shipping Policy</a></li>
+                                </ul>
+                            </div>
+                            <div style="color: #ffffff; width: 33.3%;" class="footer__right--item">
+                                <p class="footer__right-title">MENU</p>
+                                <ul style="list-style: none; color: #ffffff;">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">All Products</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Track Your Order</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="color: #ffffff; margin: 30px 0;">
+                    <div style="display: flex; justify-content:space-between; align-items: center; opacity: .7;" class="under-footer">
+                        <div style="color: #ffffff; width: 25%; " class="social">
+                            <ul style="display: flex; list-style: none; justify-content: flex-end; font-size: 25px; align-items: center;" class="social-icons-footer">
+                                <li>
+                                    <a  style="color: #ffffff;" href="#" title="Moon on Facebook">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                        
+                                <li>
+                                    <a  style="color: #ffffff; padding-left: 5px;" href="#" title="Moon on Pinterest">
+                                        <i class="fa-brands fa-pinterest"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div style="width: 50%; text-align: center;" >
+                            <p class="site-footer__copyright-content "><span style="color: #ffffff;" class="powered_by_badge">© 2023, Moon</span></p>
+                            
+                            <ul style="display: flex; list-style: none; justify-content: center;" class="site-footer__linklist">
+                              
+                              <li><a href="#">Terms</a></li>
+                              &nbsp;
+                              <li><a href="#">Legal Notice</a></li>
+                              &nbsp;
+                              <li><a href="#">Privacy Policy</a></li>
+                              &nbsp;
+                              <li><a href="#">Return and Refund Policy</a></li>
+                              &nbsp;
+                              <li><a href="#">Shipping Policy</a></li>
+                              
+                            </ul>
+                            
+                        </div>
+
+                        <ul style="list-style: none; display: flex; margin-top: 7px; width: 25%;" class="payment-icons">
+                                        
+                            <li>
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-american_express"><title id="pi-american_express">American Express</title><g fill="none"><path fill="#000" d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z" opacity=".07"></path><path fill="#006FCF" d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1"></path><path fill="#FFF" d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z"></path></g></svg>
+                                
+                            </li>
+                            
+                            <li>
+                                <svg class="icon" width="38" height="24" role="img" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="pi-cartes_bancaires"><title id="pi-cartes_bancaires">Cartes Bancaires</title><rect x="1" y="1" width="36" height="22" rx="2" fill="url(#pi-cartes_bancaires-paint0_linear)"></rect><rect x=".5" y=".5" width="37" height="23" rx="2.5" stroke="#000" stroke-opacity=".07"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M28 9.934c0 1.067-.8 1.932-1.79 1.934v.002h-6.52V8h6.52c.99.002 1.79.867 1.79 1.934zm0 4.104c0 1.067-.8 1.932-1.79 1.934v.003h-6.52v-3.87h6.52c.99.002 1.79.867 1.79 1.933zm-13.224-1.934h4.788v.378c0 1.943-1.46 3.518-3.26 3.518H13.26C11.46 16 10 14.425 10 12.482v-.938c0-1.943 1.46-3.518 3.26-3.518h3.044c1.8 0 3.26 1.575 3.26 3.518v.326h-4.788v.234z" fill="#fff"></path><defs><linearGradient id="pi-cartes_bancaires-paint0_linear" x1="37" y1="1" x2="17.422" y2="33.036" gradientUnits="userSpaceOnUse"><stop stop-color="#083969"></stop><stop offset=".492" stop-color="#007B9D"></stop><stop offset="1" stop-color="#00A84A"></stop></linearGradient></defs></svg>
+                            </li>
+                        
+                            <li>
+                            <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg>
+                            </li>
+                            
+                            <li>
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-shopify_pay"><title id="pi-shopify_pay">Shop Pay</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#5A31F4"></path><path d="M21.382 9.713c0 1.668-1.177 2.858-2.821 2.858h-1.549a.133.133 0 00-.12.08.127.127 0 00-.01.049v2.192a.129.129 0 01-.13.129h-1.084a.13.13 0 01-.13-.13V6.986a.127.127 0 01.08-.12.129.129 0 01.05-.01h2.9c1.637 0 2.814 1.19 2.814 2.858v-.001zm-1.352 0c0-.958-.658-1.658-1.55-1.658h-1.468a.13.13 0 00-.13.13v3.05a.127.127 0 00.038.092.129.129 0 00.092.038h1.468c.892.005 1.55-.695 1.55-1.652zm1.674 3.791a1.527 1.527 0 01.647-1.317c.423-.316 1.084-.48 2.055-.514l1.033-.036v-.303c0-.607-.41-.863-1.068-.863-.658 0-1.075.231-1.17.61a.127.127 0 01-.125.09h-1.022a.13.13 0 01-.126-.092.125.125 0 01-.004-.055c.152-.898.904-1.58 2.494-1.58 1.692 0 2.303.783 2.303 2.276v3.172a.13.13 0 01-.132.129h-1.03a.13.13 0 01-.13-.13v-.236a.096.096 0 00-.061-.091.1.1 0 00-.107.022c-.31.334-.808.575-1.607.575-1.175 0-1.95-.607-1.95-1.657zm3.735-.687v-.246l-1.339.07c-.705.036-1.115.326-1.115.816 0 .444.376.69 1.034.69.893 0 1.42-.48 1.42-1.33zm2.316 4.6v-.919a.13.13 0 01.049-.1.132.132 0 01.108-.027c.158.029.318.044.479.044a1.229 1.229 0 001.245-.876l.067-.211a.133.133 0 000-.088l-2.145-5.471a.13.13 0 01.06-.165.13.13 0 01.062-.015h1.04a.132.132 0 01.123.085l1.456 3.859a.131.131 0 00.125.088.133.133 0 00.125-.088l1.265-3.848a.13.13 0 01.126-.09h1.076a.134.134 0 01.132.116.134.134 0 01-.008.063l-2.295 6.076c-.528 1.413-1.433 1.773-2.43 1.773a1.959 1.959 0 01-.561-.066.132.132 0 01-.1-.14h.001zM8.57 6.4a5.363 5.363 0 00-3.683 1.427.231.231 0 00-.029.31l.618.839a.236.236 0 00.362.028 3.823 3.823 0 012.738-1.11c2.12 0 3.227 1.584 3.227 3.15 0 1.7-1.163 2.898-2.835 2.921-1.292 0-2.266-.85-2.266-1.974a1.908 1.908 0 01.713-1.48.231.231 0 00.033-.324l-.65-.815a.236.236 0 00-.339-.034 3.43 3.43 0 00-.942 1.183 3.39 3.39 0 00-.337 1.47c0 1.935 1.655 3.452 3.775 3.464h.03c2.517-.032 4.337-1.884 4.337-4.415 0-2.247-1.667-4.64-4.752-4.64z" fill="#fff"></path></svg>
+                            </li>
+                            
+                            <li>
+                            <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $("#reviews-form,#cancelForm").click(function() {
+            var x = document.getElementById("form-reviews");
+            if (x.style.display === "none") {
+                $("#form-reviews").slideToggle(1000);
+            } else{
+                $("#form-reviews").toggle(500);
+            }
+        });
+    </script>
+
+    <script>
+        $("#toggle1").click(function() {          
+            $("#text1").slideToggle(200);
+        });
+
+        $("#toggle2").click(function() {          
+            $("#text2").slideToggle(200);
+        });
+
+        $("#toggle3").click(function() {          
+            $("#text3").slideToggle(200);
+        });
+
+        $("#toggle4").click(function() {          
+            $("#text4").slideToggle(200);
+        });
+    </script>
+</body>
+</html>
