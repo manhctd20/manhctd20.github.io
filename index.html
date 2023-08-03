@@ -60,7 +60,7 @@
                             <i style="font-size: 20px;" class="fa-solid fa-bars"></i>
                         </label>
                         <label for="btn-cart" class="header__yourCart">
-                            <i style="font-size: 24px;" class="fa-solid fa-bag-shopping cart"></i>
+                            <i style="font-size: 22px;"  class="fa-solid fa-cart-shopping"></i>
                         </label>
                      </div>
                     <!-- <button style="border: none; background-color: #fff;" onclick="showCart()">
@@ -345,7 +345,7 @@
                 />
             </div>
             
-            <div  style=" text-align: center; font-weight: bolder; padding: 0 100px;">
+            <div class="text-guarantee">
                 <b class="text-center">
                     COMPOSE YOURS
                     <br />
@@ -388,7 +388,7 @@
                             <b>⭐️ ⭐️ ⭐️ ⭐️ ⭐️ 4.9 (125,345+ Happy Customers)</b>
                         </div>
                         <div style="padding-left: 15px; position: relative;" class="cart-productItem">
-                            <h1 style="color: #000000; font-size: 28px; font-family: 'Poppins', sans-serif;" class="productItem__title borderLeft " itemprop="name">
+                            <h1 class="productItem__title borderLeft " itemprop="name">
                                 Premium Soft Sofa Covers
                             </h1>
                         </div>
@@ -878,9 +878,7 @@
                                 </a>
                                 <span class="sale-tag">-40%</span>
                             </div>
-                            <p style="padding-left: 30px; white-space: nowrap;
-                            overflow: hidden;
-                            text-overflow: ellipsis;" >
+                            <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" >
                                 <a href="">
                                     <span class="recommend-title">Oversized Thicken Stretch Jacquard Sofa Covers</span>
                                 </a>
@@ -906,9 +904,7 @@
                                 </a> 
                                 <span class="sale-tag">-40%</span>
                             </div> 
-                            <p style="white-space: nowrap;
-                            overflow: hidden;
-                            text-overflow: ellipsis;" >
+                            <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" >
                                 <a href="">
                                     <span class="recommend-title">Soft and Twisted Sofa Covers</span>
                                 </a>
@@ -962,9 +958,7 @@
                                 </a> 
                                 <span class="sale-tag">-40%</span> 
                             </div>
-                            <p style="padding-left:30px; white-space: nowrap;
-                            overflow: hidden;
-                            text-overflow: ellipsis;" >
+                            <p style=" white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" >
                                 <a href="">
                                     <span class="recommend-title">Modern Extendable Covers for Armchair and Sofa</span>
                                 </a>
@@ -991,7 +985,7 @@
         </div>
         <div id="footer">
             <div class="site-footer">
-                <div style="max-width: 1100px; margin: 0 auto; padding-left: 15px; padding-right: 15px;" class="site-width">
+                <div style="margin: 0 auto; padding-left: 15px; padding-right: 15px;" class="site-width">
                     <div style="display: flex;" class="content-footer">
                         <div class="footer__left">
                             <div style="margin-bottom: 15px;" class="footer__logo">
@@ -1035,8 +1029,13 @@
                         </div>
                         <div class="footer__right">
                             <div class="footer__right--item">
-                                <div id="toggle-info" class="footer__right-title">INFO</div>
-                                <ul id="nav-info" class="nav-info">
+                                <input type="checkbox" hidden id="nav-info">
+                                <label for="nav-info">
+                                    <div class="footer__right-title">
+                                        INFO
+                                    </div>
+                                </label>
+                                <ul class="nav-info">
                                     <li><a href="#">Terms</a></li>
                                     <li><a href="#">Legal Notice</a></li>
                                     <li><a href="#">Privacy Policy</a></li>
@@ -1045,8 +1044,9 @@
                                 </ul>
                             </div>
                             <div class="footer__right--item">
-                                <div id="toggle-menu" class="footer__right-title">MENU</div>
-                                <ul id="nav-menu" class="nav-menu">
+                                <input type="checkbox" hidden name="" id="nav-menu">
+                                <label for="nav-menu"><div class="footer__right-title">MENU</div></label>
+                                <ul class="nav-menu">
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">All Products</a></li>
                                     <li><a href="#">Contact</a></li>
@@ -1157,14 +1157,5 @@
         });
     </script>
 
-    <script>
-         $("#toggle-info").click(function() {          
-            $("#nav-info").slideToggle(200);
-        });
-
-        $("#toggle-menu").click(function() {          
-            $("#nav-menu").slideToggle(200);
-        });
-    </script>
 </body>
 </html>
