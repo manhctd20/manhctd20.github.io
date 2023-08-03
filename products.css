@@ -410,9 +410,14 @@ span {
   align-items: center;
   justify-content: center;
   content: "+";
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 700;
 }
+
+/* .toggle.active::after{
+  transform: translateY(-50%) rotate(45deg);
+  transform-origin: 50% 50%;
+} */
 
 .grid-recommend {
   width: 100%;
@@ -625,7 +630,7 @@ button.next {
 }
 
 .thumbnails .thumbnail-item {
-    width: 77px;
+    width: 66px;
     opacity: 0.4;
     border-radius: 3px;
     transition: all 0.25s ease-out;

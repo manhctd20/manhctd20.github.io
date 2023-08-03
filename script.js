@@ -37,20 +37,20 @@ function currentSlide(n) {
 showSlide(0);
 
 
-function showCart() {
-  var x = document.getElementById("yourCart");
-  if (x.style.display === "block") {
-      x.style.display = "none";
-  } else {
-      x.style.display = "block";
-  }
-}
-function hiddenCart() {
-  var x = document.getElementById("yourCart");
-  if (x.style.display === "block") {
-      x.style.display = "none";
-  } 
-}
+// function showCart() {
+//   var x = document.getElementById("yourCart");
+//   if (x.style.display === "block") {
+//       x.style.display = "none";
+//   } else {
+//       x.style.display = "block";
+//   }
+// }
+// function hiddenCart() {
+//   var x = document.getElementById("yourCart");
+//   if (x.style.display === "block") {
+//       x.style.display = "none";
+//   } 
+// }
 
 function openTab(tabId) {
   var i;
